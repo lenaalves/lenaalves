@@ -36,7 +36,7 @@ Uma aplicação web completa para rastreamento financeiro pessoal, construída c
 ## 📞 Vamos Conversar?
 
 - **Email**: lorenapinalves@gmail.com
-- **LinkedIn**: [Seu LinkedIn](https://linkedin.com/in/lorenaalves)
+- **LinkedIn**: [Lorena Alves](https://linkedin.com/in/lorenaalves)
 - **Portfólio Web**: [Em breve]
 
 ---
