@@ -1,80 +1,45 @@
-# FinTrack
+# Portfólio de Lorena Alves
 
-![FinTrack Logo](https://img.shields.io/badge/FinTrack-Financial%20Tracker-blue?style=for-the-badge&logo=react)
+![Portfólio](https://img.shields.io/badge/Portfólio-Lorena%20Alves-purple?style=for-the-badge&logo=github)
 
-Uma aplicação web para rastreamento financeiro pessoal, construída com React, TypeScript e Vite. Permite gerenciar transações, visualizar dashboards e manter controle sobre suas finanças.
+Bem-vindo ao meu portfólio no GitHub! Aqui você encontra uma coleção dos meus projetos de desenvolvimento, demonstrando minhas habilidades em programação e design.
 
-## 🚀 Funcionalidades
+## 🚀 Sobre Mim
 
-- 📊 **Dashboard Interativo**: Visualize suas finanças com gráficos e relatórios
-- 💰 **Gerenciamento de Transações**: Adicione, edite e categorize suas transações
-- 🔐 **Autenticação Segura**: Login e registro com Supabase
-- 📱 **Interface Responsiva**: Funciona perfeitamente em desktop e mobile
-- ⚡ **Performance Otimizada**: Construído com Vite para carregamento rápido
+Olá! Sou Lorena Alves, desenvolvedora apaixonada por criar soluções tecnológicas inovadoras. Tenho experiência em desenvolvimento web full-stack, com foco em React, TypeScript e Node.js.
 
-## 🛠️ Tecnologias Utilizadas
+## 📂 Projetos em Destaque
 
-- **Frontend**: React 18 + TypeScript
-- **Build Tool**: Vite
-- **Styling**: Tailwind CSS
-- **Backend**: Supabase (PostgreSQL + Auth)
-- **Linting**: ESLint
-- **Deployment**: GitHub Pages / Vercel
+### 🌟 [**FinTrack**](https://github.com/lenaalves/fintrack)
+Uma aplicação web completa para rastreamento financeiro pessoal, construída com React, TypeScript e Supabase.
+- **Tecnologias**: React 18, TypeScript, Vite, Tailwind CSS, Supabase
+- **Funcionalidades**: Dashboard interativo, gerenciamento de transações, autenticação segura
+- **Status**: ✅ Concluído
 
-## 📦 Instalação
+### 🔄 Próximos Projetos
+- [ ] **TaskManager** - Aplicação de gerenciamento de tarefas
+- [ ] **Blog Pessoal** - Plataforma de blog com CMS
+- [ ] **E-commerce** - Loja virtual responsiva
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/lenaalves/lenaalves.git
-   cd fintrack
-   ```
+## 🛠️ Tecnologias que Uso
 
-2. Instale as dependências:
-   ```bash
-   npm install
-   ```
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-3. Configure as variáveis de ambiente:
-   Copie `.env.example` para `.env` e preencha com suas credenciais do Supabase.
+## 📊 Estatísticas do GitHub
 
-4. Execute o projeto:
-   ```bash
-   npm run dev
-   ```
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=lenaAlves&show_icons=true&theme=radical)
 
-## 🔧 Scripts Disponíveis
+## 📞 Vamos Conversar?
 
-- `npm run dev` - Inicia o servidor de desenvolvimento
-- `npm run build` - Build para produção
-- `npm run preview` - Preview do build
-- `npm run lint` - Executa o ESLint
-
-## 📁 Estrutura do Projeto
-
-```
-fintrack/
-├── public/          # Assets estáticos
-├── src/
-│   ├── assets/      # Imagens e ícones
-│   ├── lib/         # Configurações (Supabase)
-│   ├── pages/       # Páginas da aplicação
-│   │   ├── Auth.tsx
-│   │   └── Dashboard.tsx
-│   ├── types/       # Definições TypeScript
-│   ├── App.tsx      # Componente principal
-│   └── main.tsx     # Ponto de entrada
-├── .env             # Variáveis de ambiente
-└── README.md
-```
-
-## 🤝 Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT.
+- **Email**: lorenapinalves@gmail.com
+- **LinkedIn**: [Seu LinkedIn](https://linkedin.com/in/lorenaalves)
+- **Portfólio Web**: [Em breve]
 
 ---
 
-Desenvolvido com ❤️ por Lorena Alves
+⭐ **Obrigada por visitar meu portfólio!** Se gostou de algum projeto, não esqueça de dar uma estrela! 🌟</content>
+<parameter name="filePath">c:\Users\loren\fintrack\README.md
