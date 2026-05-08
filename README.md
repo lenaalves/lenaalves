@@ -10,16 +10,16 @@ Olá! Sou Lorena Alves, desenvolvedora apaixonada por criar soluções tecnológ
 
 ## 📂 Projetos em Destaque
 
-### 🌟 [**FinTrack**]([https://github.com/lenaalves/Projeto-Fintrack])
+### 🌟 [**FinTrack**](https://github.com/lenaalves/Projeto-Fintrack)
 Uma aplicação web completa para rastreamento financeiro pessoal, construída com React, TypeScript e Supabase.
 - **Tecnologias**: React 18, TypeScript, Vite, Tailwind CSS, Supabase
 - **Funcionalidades**: Dashboard interativo, gerenciamento de transações, autenticação segura
 - **Status**: ✅ Concluído
 
 ### 🔄 Próximos Projetos
-- [ ] **TaskManager** - Aplicação de gerenciamento de tarefas
-- [ ] **Blog Pessoal** - Plataforma de blog com CMS
-- [ ] **E-commerce** - Loja virtual responsiva
+- [ ] **** - 
+- [ ] **** - 
+- [ ] **** - 
 
 ## 🛠️ Tecnologias que Uso
 
