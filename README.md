@@ -1,73 +1,80 @@
-# React + TypeScript + Vite
+# FinTrack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![FinTrack Logo](https://img.shields.io/badge/FinTrack-Financial%20Tracker-blue?style=for-the-badge&logo=react)
 
-Currently, two official plugins are available:
+Uma aplicação web para rastreamento financeiro pessoal, construída com React, TypeScript e Vite. Permite gerenciar transações, visualizar dashboards e manter controle sobre suas finanças.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Funcionalidades
 
-## React Compiler
+- 📊 **Dashboard Interativo**: Visualize suas finanças com gráficos e relatórios
+- 💰 **Gerenciamento de Transações**: Adicione, edite e categorize suas transações
+- 🔐 **Autenticação Segura**: Login e registro com Supabase
+- 📱 **Interface Responsiva**: Funciona perfeitamente em desktop e mobile
+- ⚡ **Performance Otimizada**: Construído com Vite para carregamento rápido
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **Frontend**: React 18 + TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Backend**: Supabase (PostgreSQL + Auth)
+- **Linting**: ESLint
+- **Deployment**: GitHub Pages / Vercel
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📦 Instalação
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/lenaalves/lenaalves.git
+   cd fintrack
+   ```
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+3. Configure as variáveis de ambiente:
+   Copie `.env.example` para `.env` e preencha com suas credenciais do Supabase.
+
+4. Execute o projeto:
+   ```bash
+   npm run dev
+   ```
+
+## 🔧 Scripts Disponíveis
+
+- `npm run dev` - Inicia o servidor de desenvolvimento
+- `npm run build` - Build para produção
+- `npm run preview` - Preview do build
+- `npm run lint` - Executa o ESLint
+
+## 📁 Estrutura do Projeto
+
+```
+fintrack/
+├── public/          # Assets estáticos
+├── src/
+│   ├── assets/      # Imagens e ícones
+│   ├── lib/         # Configurações (Supabase)
+│   ├── pages/       # Páginas da aplicação
+│   │   ├── Auth.tsx
+│   │   └── Dashboard.tsx
+│   ├── types/       # Definições TypeScript
+│   ├── App.tsx      # Componente principal
+│   └── main.tsx     # Ponto de entrada
+├── .env             # Variáveis de ambiente
+└── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🤝 Contribuição
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+Desenvolvido com ❤️ por Lorena Alves
